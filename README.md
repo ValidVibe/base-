@@ -110,4 +110,7 @@ Base offers near-instant finality, fees far cheaper than Ethereum mainnet, and s
 ## 📜 Base History
 Base launched on mainnet in August 2023, incubated by Coinbase. It was originally built on Optimism's OP Stack and was part of the Superchain ecosystem. On February 18, 2026, Base announced a transition to its own proprietary unified stack for greater autonomy and faster development.
 
+## 🏛 Base Architecture
+Base is an Ethereum Layer 2 using optimistic rollup technology. Transactions are executed on Base and batched to Ethereum mainnet for settlement, inheriting Ethereum's security. Base is transitioning from the OP Stack to its own unified, in-house stack built on open-source components like Reth.
+
 
