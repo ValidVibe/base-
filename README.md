@@ -113,4 +113,5 @@ Base launched on mainnet in August 2023, incubated by Coinbase. It was originall
 ## 🏛 Base Architecture
 Base is an Ethereum Layer 2 using optimistic rollup technology. Transactions are executed on Base and batched to Ethereum mainnet for settlement, inheriting Ethereum's security. Base is transitioning from the OP Stack to its own unified, in-house stack built on open-source components like Reth.
 
-
+## 🔧 Unified Stack
+On February 18, 2026, Base confirmed a move away from the OP Stack to its own proprietary unified stack. All infrastructure is being consolidated into a single repository (`base/base`) built on open-source components like Reth. This gives Base full control over its roadmap and enables roughly six major upgrades per year — doubling its previous development pace.
