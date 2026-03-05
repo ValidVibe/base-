@@ -129,4 +129,8 @@ cd your-repo
 npm install
 ```
 
-
+## 🔧 Environment Setup
+```bash
+cp .env.example .env
+```
+Required variables: `PRIVATE_KEY`, `BASE_RPC_URL`, `BASESCAN_API_KEY`.
