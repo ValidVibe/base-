@@ -121,3 +121,12 @@ Clone the repo, install dependencies, configure your `.env`, and deploy to Base.
 
 ## ✅ Prerequisites
 Requires Node.js v18+, npm or yarn, and a wallet funded with ETH on Base. Hardhat or Foundry recommended. ETH can be bridged from Ethereum mainnet via the official Base Bridge.
+
+## 📦 Installation
+```bash
+git clone https://github.com/your-repo.git
+cd your-repo
+npm install
+```
+
+
