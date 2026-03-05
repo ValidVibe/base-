@@ -118,3 +118,6 @@ On February 18, 2026, Base confirmed a move away from the OP Stack to its own pr
 
 ## 🚀 Getting Started
 Clone the repo, install dependencies, configure your `.env`, and deploy to Base. All contracts are EVM-compatible and work with standard Solidity tooling like Hardhat and Foundry.
+
+## ✅ Prerequisites
+Requires Node.js v18+, npm or yarn, and a wallet funded with ETH on Base. Hardhat or Foundry recommended. ETH can be bridged from Ethereum mainnet via the official Base Bridge.
