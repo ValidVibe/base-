@@ -153,3 +153,9 @@ baseSepolia: {
 
 ## 🔗 Connecting to Base
 Use the public RPC `https://mainnet.base.org` or a provider like Alchemy or QuickNode for higher rate limits and reliability.
+
+## 📡 Base Mainnet Details
+- **Chain ID:** 8453
+- **RPC:** https://mainnet.base.org
+- **Explorer:** https://basescan.org
+- **Native Token:** ETH
