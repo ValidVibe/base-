@@ -183,3 +183,6 @@ Follows checks-effects-interactions pattern. Access control via OpenZeppelin rol
 
 ## 🏗 Contract Architecture
 Modular design with separated core logic, storage, and interfaces. Shallow inheritance keeps contracts readable and auditable. Deployed and verified on Basescan.
+
+## 📄 Smart Contract Overview
+Core contracts handle protocol logic, token management, and access control. All contracts are written in Solidity ^0.8.20 and optimized for Base's gas model.
