@@ -180,3 +180,6 @@ Base implements EIP-1559, meaning transactions include a base fee (burned) and o
 
 ## 🔒 Security
 Follows checks-effects-interactions pattern. Access control via OpenZeppelin roles. Contracts tested with edge-case fuzzing and reviewed against Base-specific attack vectors.
+
+## 🏗 Contract Architecture
+Modular design with separated core logic, storage, and interfaces. Shallow inheritance keeps contracts readable and auditable. Deployed and verified on Basescan.
