@@ -171,3 +171,6 @@ Base fees are a fraction of Ethereum mainnet. Uses packed structs, batched calls
 
 ## 📊 Base Gas Model
 Base uses a two-component fee model: L2 execution fee and L1 data fee. The L1 data fee covers the cost of posting transaction data to Ethereum and is typically the larger component.
+
+## 💸 L1 vs L2 Fees
+L2 execution fees on Base are ~10-100x cheaper than Ethereum mainnet. L1 data fees depend on calldata size and Ethereum gas prices at the time of batch submission.
