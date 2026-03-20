@@ -168,3 +168,6 @@ Use the public RPC `https://mainnet.base.org` or a provider like Alchemy or Quic
 
 ## ⛽ Gas Fee Optimization
 Base fees are a fraction of Ethereum mainnet. Uses packed structs, batched calls, and memory caching to further reduce on-chain costs. Off-chain computation minimizes unnecessary execution.
+
+## 📊 Base Gas Model
+Base uses a two-component fee model: L2 execution fee and L1 data fee. The L1 data fee covers the cost of posting transaction data to Ethereum and is typically the larger component.
