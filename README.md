@@ -150,3 +150,6 @@ baseSepolia: {
   accounts: [process.env.PRIVATE_KEY]
 }
 ```
+
+## 🔗 Connecting to Base
+Use the public RPC `https://mainnet.base.org` or a provider like Alchemy or QuickNode for higher rate limits and reliability.
