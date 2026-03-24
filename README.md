@@ -195,3 +195,6 @@ Verify automatically with:
 ```bash
 npx hardhat verify --network base <CONTRACT_ADDRESS>
 ```
+
+## 🌉 Bridging to Base
+ETH and ERC-20 tokens can be bridged from Ethereum mainnet to Base using the official Base Bridge or third-party solutions. Withdrawals to L1 take ~7 days via the canonical bridge.
