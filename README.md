@@ -234,3 +234,6 @@ Critical functions can be paused in emergencies using OpenZeppelin `Pausable`. O
 
 ## 🔄 Reentrancy Protection
 All state-changing external calls follow checks-effects-interactions. `ReentrancyGuard` from OpenZeppelin is applied to sensitive functions as an additional layer.
+
+## 🔢 Integer Overflow Protection
+Solidity ^0.8.x has built-in overflow protection. All arithmetic is safe by default. `unchecked` blocks are only used in gas-critical loops with verified bounds.
