@@ -252,3 +252,6 @@ Both Chainlink and Pyth provide low-latency price feeds on Base. Pyth offers sub
 
 ## 📁 IPFS Integration
 Off-chain metadata and assets are stored on IPFS via Pinata or NFT.Storage. Only content hashes are stored on-chain to minimize gas costs on Base.
+
+## 🗄 Metadata Storage
+Token metadata follows the ERC-721/1155 metadata standard. URIs point to IPFS-hosted JSON files containing name, description, image, and attributes.
