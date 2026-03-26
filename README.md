@@ -228,3 +228,6 @@ Roles include `ADMIN_ROLE`, `MINTER_ROLE`, and `PAUSER_ROLE`. Each role controls
 
 ## 👤 Ownership
 Ownership managed via OpenZeppelin `Ownable`. For production, ownership is transferred to a multi-sig wallet immediately after deployment on Base.
+
+## ⏸ Pausable Contracts
+Critical functions can be paused in emergencies using OpenZeppelin `Pausable`. Only addresses with `PAUSER_ROLE` can trigger a pause on Base mainnet.
