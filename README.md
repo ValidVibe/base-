@@ -243,3 +243,6 @@ Price-sensitive functions use time-weighted average prices (TWAP) and block-base
 
 ## 🔮 Oracle Integration
 External price data is fetched via Chainlink and Pyth Network oracles deployed on Base. Staleness checks ensure data is not older than a defined threshold.
+
+## 🔗 Chainlink on Base
+Chainlink Price Feeds are live on Base mainnet. Supported pairs include ETH/USD, BTC/USD, and USDC/USD. Aggregator addresses available at docs.chain.link.
