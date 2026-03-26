@@ -255,3 +255,6 @@ Off-chain metadata and assets are stored on IPFS via Pinata or NFT.Storage. Only
 
 ## 🗄 Metadata Storage
 Token metadata follows the ERC-721/1155 metadata standard. URIs point to IPFS-hosted JSON files containing name, description, image, and attributes.
+
+## 📋 Event Logging
+All significant state changes emit events. Events are indexed for efficient filtering on Base via Basescan or The Graph subgraphs deployed on Base.
