@@ -222,3 +222,6 @@ Multi-token standard ideal for gaming and batch operations. Lower fees on Base m
 
 ## 🛡 Access Control
 Uses OpenZeppelin's `AccessControl` for granular role-based permissions. Roles are defined at deployment and can be granted or revoked by admins.
+
+## 👥 Role Management
+Roles include `ADMIN_ROLE`, `MINTER_ROLE`, and `PAUSER_ROLE`. Each role controls specific contract functions, minimizing risk of privilege escalation.
