@@ -304,4 +304,5 @@ Minor edge cases in batch operations under extreme gas price spikes are noted in
 ## 🏆 Bug Bounty
 Security researchers who responsibly disclose vulnerabilities are eligible for bounty rewards. Submit findings to security@yourprotocol.xyz with a detailed reproduction. Critical issues are prioritized within 24 hours.
 
-
+## ⬆️ Upgradability
+Core contracts use the UUPS proxy pattern via OpenZeppelin. Upgrade authority is controlled by a multi-sig with a timelock delay. Storage layout is carefully maintained across upgrades to prevent slot collision.
