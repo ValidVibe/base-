@@ -276,3 +276,8 @@ Tests run locally via Hardhat Network with Base fork support. Use the `--fork` f
 ```bash
 npx hardhat test --network hardhat
 ```
+## 🔬 Unit Tests
+Each contract function has isolated unit tests covering happy paths, edge cases, and revert conditions. Run all tests with:
+```bash
+npx hardhat test
+```
