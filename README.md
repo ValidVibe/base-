@@ -286,3 +286,9 @@ Integration tests simulate full user flows across multiple contracts using a for
 
 ## 🎲 Fuzzing
 Foundry fuzzing (`forge test --fuzz-runs 10000`) discovers edge cases. Invariant tests verify that core protocol properties like solvency and correct accounting hold under arbitrary user inputs.
+
+## 📊 Code Coverage
+```bash
+npx hardhat coverage
+```
+Target: >95% line coverage. Reports generated via `solidity-coverage` and uploaded to Codecov for CI tracking.
