@@ -261,3 +261,12 @@ All significant state changes emit events. Events are indexed for efficient filt
 
 ## ❌ Error Handling
 Reverts use descriptive messages for clarity. Custom errors are preferred over string reverts for gas efficiency. This is especially important on Base where high-frequency contract calls make per-call gas savings compound quickly.
+
+## 🚨 Custom Errors
+```solidity
+error Unauthorized(address caller);
+error InsufficientBalance(uint256 required, uint256 available);
+error InvalidAddress();
+error ContractPaused();
+```
+Custom errors save ~50 gas per revert over string messages.
