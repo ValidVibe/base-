@@ -292,3 +292,6 @@ Foundry fuzzing (`forge test --fuzz-runs 10000`) discovers edge cases. Invariant
 npx hardhat coverage
 ```
 Target: >95% line coverage. Reports generated via `solidity-coverage` and uploaded to Codecov for CI tracking.
+
+## 🔍 Audits
+Contracts reviewed by independent security researchers before Base mainnet deployment. Audit reports are in the `/audits` directory. All critical and high-severity findings are resolved before launch.
