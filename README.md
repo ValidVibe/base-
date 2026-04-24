@@ -299,3 +299,9 @@ Contracts reviewed by independent security researchers before Base mainnet deplo
 
 ## ⚠️ Known Issues
 Minor edge cases in batch operations under extreme gas price spikes are noted in `/audits/known-issues.md`. These are non-critical and mitigated by client-side checks. No user funds are at risk.
+
+
+## 🏆 Bug Bounty
+Security researchers who responsibly disclose vulnerabilities are eligible for bounty rewards. Submit findings to security@yourprotocol.xyz with a detailed reproduction. Critical issues are prioritized within 24 hours.
+
+
