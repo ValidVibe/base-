@@ -295,3 +295,7 @@ Target: >95% line coverage. Reports generated via `solidity-coverage` and upload
 
 ## 🔍 Audits
 Contracts reviewed by independent security researchers before Base mainnet deployment. Audit reports are in the `/audits` directory. All critical and high-severity findings are resolved before launch.
+
+
+## ⚠️ Known Issues
+Minor edge cases in batch operations under extreme gas price spikes are noted in `/audits/known-issues.md`. These are non-critical and mitigated by client-side checks. No user funds are at risk.
