@@ -258,3 +258,6 @@ Token metadata follows the ERC-721/1155 metadata standard. URIs point to IPFS-ho
 
 ## 📋 Event Logging
 All significant state changes emit events. Events are indexed for efficient filtering on Base via Basescan or The Graph subgraphs deployed on Base.
+
+## ❌ Error Handling
+Reverts use descriptive messages for clarity. Custom errors are preferred over string reverts for gas efficiency. This is especially important on Base where high-frequency contract calls make per-call gas savings compound quickly.
