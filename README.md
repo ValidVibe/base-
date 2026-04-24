@@ -270,3 +270,9 @@ error InvalidAddress();
 error ContractPaused();
 ```
 Custom errors save ~50 gas per revert over string messages.
+
+## 🧪 Testing on Base
+Tests run locally via Hardhat Network with Base fork support. Use the `--fork` flag with Base mainnet RPC to test against live state including Aerodrome liquidity pools and Chainlink feeds.
+```bash
+npx hardhat test --network hardhat
+```
