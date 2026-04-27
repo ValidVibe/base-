@@ -350,3 +350,6 @@ Liquidity is provided via Aerodrome and Uniswap v3 pools on Base. Deep liquidity
 
 ## ✈️ Aerodrome Finance
 Aerodrome is the leading DEX and liquidity hub on Base, operating as a fork of Velodrome v2. It reached an all-time high of $1.68 billion in single-day trading volume. Protocol liquidity incentives are routed through Aerodrome's ve(3,3) model.
+
+## 🦄 Uniswap on Base
+Uniswap v3 is fully deployed on Base with concentrated liquidity pools. Base's low fees make Uniswap v3 range orders and JIT liquidity strategies viable at smaller capital sizes than on mainnet.
