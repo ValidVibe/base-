@@ -317,3 +317,6 @@ Storage slots are explicitly documented in `StorageLayout.md`. Gap arrays (`uint
 
 ## 📜 ABI
 ABI files are auto-generated during compilation and stored in `/artifacts`. They are also exported to `/abi` for frontend integration. All public ABIs are published on Basescan for direct interaction.
+
+## 🔌 Interface Design
+All contracts expose clean interfaces (e.g., `IProtocol.sol`) separating implementation from interaction. This allows third-party Base contracts to integrate without importing full implementation dependencies.
