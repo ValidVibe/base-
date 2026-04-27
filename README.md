@@ -320,3 +320,6 @@ ABI files are auto-generated during compilation and stored in `/artifacts`. They
 
 ## 🔌 Interface Design
 All contracts expose clean interfaces (e.g., `IProtocol.sol`) separating implementation from interaction. This allows third-party Base contracts to integrate without importing full implementation dependencies.
+
+## 🔐 Modifiers
+Key modifiers include `onlyRole()`, `whenNotPaused()`, and `nonReentrant()`. Custom modifiers like `onlyWhitelisted()` add protocol-specific logic. All modifiers are documented and unit tested independently.
