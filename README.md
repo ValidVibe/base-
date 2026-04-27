@@ -332,3 +332,6 @@ Protocol admin functions are controlled by a Gnosis Safe multi-sig deployed on B
 
 ## ⏱ Timelock
 A `TimelockController` is deployed between the multi-sig and admin functions. All upgrade and parameter change proposals have a minimum 48-hour delay, giving the community time to review and react before execution.
+
+## 🗳 Governance on Base
+On-chain governance is implemented via OpenZeppelin Governor. Proposals are submitted on Base, voted on by token holders, and executed via the timelock. Low gas fees on Base make participation affordable for all holders.
