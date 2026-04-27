@@ -326,3 +326,6 @@ Key modifiers include `onlyRole()`, `whenNotPaused()`, and `nonReentrant()`. Cus
 
 ## 📚 Libraries
 Uses OpenZeppelin Contracts v5 for security primitives. Math operations use `Math.sol` and `SafeCast.sol`. Address utilities use `Address.sol`. All library code is imported directly from audited npm packages.
+
+## 🔏 Multi-Sig on Base
+Protocol admin functions are controlled by a Gnosis Safe multi-sig deployed on Base mainnet. Requires M-of-N signatures for sensitive operations like upgrades, pausing, and role assignment.
