@@ -313,3 +313,7 @@ Uses OpenZeppelin's UUPS (ERC-1967) proxy. The implementation contract contains 
 
 ## 🗂 Storage Layout
 Storage slots are explicitly documented in `StorageLayout.md`. Gap arrays (`uint256[50] __gap`) are used in upgradeable contracts to reserve slots for future state variables without causing storage collisions on Base.
+
+
+## 📜 ABI
+ABI files are auto-generated during compilation and stored in `/artifacts`. They are also exported to `/abi` for frontend integration. All public ABIs are published on Basescan for direct interaction.
