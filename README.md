@@ -341,3 +341,6 @@ Token holders vote on proposals using ERC-20Votes (EIP-5805 compliant). Votes ar
 
 ## 🥩 Staking on Base
 Users stake tokens to earn protocol rewards. Staking contracts use time-weighted reward accounting to ensure fair distribution. Low Base fees make frequent claiming and compounding economically viable for all users.
+
+## 🎁 Rewards
+Rewards are distributed per block and claimable at any time. The reward rate is adjustable by governance within defined bounds. Emissions are tracked on-chain and verifiable on Basescan.
