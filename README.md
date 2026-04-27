@@ -323,3 +323,6 @@ All contracts expose clean interfaces (e.g., `IProtocol.sol`) separating impleme
 
 ## 🔐 Modifiers
 Key modifiers include `onlyRole()`, `whenNotPaused()`, and `nonReentrant()`. Custom modifiers like `onlyWhitelisted()` add protocol-specific logic. All modifiers are documented and unit tested independently.
+
+## 📚 Libraries
+Uses OpenZeppelin Contracts v5 for security primitives. Math operations use `Math.sol` and `SafeCast.sol`. Address utilities use `Address.sol`. All library code is imported directly from audited npm packages.
